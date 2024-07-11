@@ -8,7 +8,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <BrowserRouter basename="rikki-goit-react-05-movies">
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );
