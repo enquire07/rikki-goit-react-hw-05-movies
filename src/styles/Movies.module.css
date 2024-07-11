@@ -1,0 +1,53 @@
+.movies {
+  padding: 20px;
+}
+
+.searchForm {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.searchForm input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.searchForm button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movieThumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.movieTitle {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.movieGenres {
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+  display: none;
+}
+nav {
+  text-decoration: underline;
+}
+nav :hover {
+  color: rgb(255, 0, 13);
+}
