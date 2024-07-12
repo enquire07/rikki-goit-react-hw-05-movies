@@ -29,9 +29,9 @@ const Movies = () => {
 
   return (
     <div className={styles.movies}>
-      <nav>
-        <Link to="/">HOME</Link>
-      </nav>
+      {/* <nav>
+        <Link to="/">Home</Link>
+      </nav> */}
 
       <h2>Search Movies</h2>
       <form onSubmit={handleSearch} className={styles.searchForm}>
@@ -66,4 +66,3 @@ const Movies = () => {
 };
 
 export default Movies;
-

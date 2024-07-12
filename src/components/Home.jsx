@@ -28,10 +28,6 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <nav>
-        <Link to="/movies">MOVIES</Link>
-      </nav>
-
       <h2>Trending Movies</h2>
       <div className={styles.movieList}>
         {movies.map(movie => (

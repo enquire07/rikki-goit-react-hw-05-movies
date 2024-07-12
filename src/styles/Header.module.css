@@ -1,15 +1,15 @@
-/* .header {
-  background-color: #c82424;
+.header {
+  background-color: #4ab7bd;
   padding: 1rem;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 50%;
 }
 
 .navbar ul li a {
-  color: rgb(182, 22, 22);
+  color: rgb(182, 22, 54);
   text-decoration: underline;
-} */
+}
